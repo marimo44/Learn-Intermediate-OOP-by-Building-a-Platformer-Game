@@ -309,6 +309,6 @@ window.addEventListener("keydown", ({ key }) => {   //for ArrowRight, ArrowLeft,
   movePlayer(key, 8, true);
 });
 
-window.addEventListener("keyup", ({ key }) => {   //nothing is pressed, do nothing
+window.addEventListener("keyup", ({ key }) => {   //if nothing is pressed, do nothing
   movePlayer(key, 0, false);
 });
